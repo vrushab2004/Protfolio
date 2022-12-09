@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>VRUSHABH JAIN</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a class="link"
+          >VJ.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#achievements">Achievements</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#coding profiles">Coding Profiles</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        
+      </nav>
+    </header>
+
+    <main>
+ 
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Vrushabh Jain.</span></h1>
+        <div class="word"></div>
+        <br>
+        <div style="width: 690px;height: 180px;border: solid 1.5px grey;padding: 10px;">
+       <center>
+          <p>
+         I am pursuing my Bachelor of Engineering specialized in Computer Science and Engineering with an avid interest in 
+          Data Structures, Algorithms and Optimization.As a programmer, I love taking challenges and like being part of the solution. 
+            Inquisitive, a fast learner with creative problem solving and coding skills.
+            Would be interested in getting exposure to domains providing intellectually challenging work in the field of computers for 
+            proving and enriching my knowledge and skills.
+        </p>
+        </center>
+      </div>
+
+        <div class="about__contact center">
+          <a href="vj.pdf">
+            <span class="btn btn--outline">RESUME</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/vrushabh Jain/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Farmers Subsidy Availing System</h3>
+            <p class="project__description">
+              An interface which reduces the hectic work of applying subsidy at government offices.There are a few features such as checking for application status, applying for the subsidy, farmer can even download the
+              sanctioned subsidy bill.There is a admin side as well where there is evaluation/examination of the uploaded bills of the purchased equipments.The website tries to reduce any kind of impartialities caused while issuing the subsidy
+              in government offices.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML/CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">PHP</li>
+              <li class="project__stack-item">MySQL</li>
+            </ul>
+
+            <a
+              href="https://github.com/vrushab2004"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+          </div>
+
+        
+        </div>
+      </section>
+
+        <!-- Achievments -->
+        <section class="section skills" id="achievements">
+          <h2 class="section__title">achievements</h2>
+          <div class="project1">
+            <div class="projects__grid">
+          <ul style="list-style-type: disc;" >
+            <li>Secured all India rank of 81 in Codechef Long Challenge in the month of October
+              2021 among 21k+ participants.</li>
+            <li>Secured all India rank of 66 in CodeStudio weekly contest 23 in the month of May
+              2022 among 1k+ participants.</li>
+              <li>Highest Rating in CodeChef - 1617.</li>
+              <li>Best global ranking of 107 in Codestudio by Coding Ninjas.</li>
+              <li>Solved more than 600+ problems on data structures and algorithms across various
+                platforms.</li>
+                <li>Codechef - Achieved a best rating of 1617 equivalent to 3 stars.</li>
+                <li>CodeStudio - Actively participated in contests and achieved a global ranking of 107</li>
+                <li>Leetcode - Solved more than 250+ problems on data structures and algorithms.</li>
+                <li>GeeksforGeeks - Solved more than 300+ problems on data structures and algorithms.</li>
+          </ul>
+          </div>
+          </div>
+        </section>
+
+       <!-- Coding Profiles -->
+       <section class="section skills" id="coding profiles">
+        <h2 class="section__title">CODING PROFILES</h2>
+       
+          <div class="project">
+            <div class="projects__grid">
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain"><img src="gfg.jpg" style="width: 80px;height:60px;"/><br>
+           GEEKS FOR GEEKS
+           <a
+           href="https://auth.geeksforgeeks.org/user/br3athe/ractice/"
+           aria-label="live preview"
+           class="link link--icon"
+         >
+           <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+         </a>
+          </li>
+        </ul>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain"><img src="lc.png" style="width: 100px;height:60px;"/><br>
+          LEETCODE
+           <a
+           href="https://leetcode.com/"
+           aria-label="live preview"
+           class="link link--icon"
+         >
+           <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+         </a>
+          </li>
+        </ul>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain"><img src="cs.png" style="width: 120px;height:60px;"/><br>
+           CODESTUDIO
+           <a
+           href="https://www.codingninjas.com/codestudio/profile/"
+           aria-label="live preview"
+           class="link link--icon"
+         >
+           <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+         </a>
+          </li>
+        </ul>
+        
+          </div>
+      </div>
+       
+      </section>
+
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <div class="project">
+          <div class="projects__grid">
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">DATA STRUCTURES AND ALGORITHMS</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">CORE JAVA(Intermediate)</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">COMPETITIVE PROGRAMMING</li>
+        </ul>
+        </div>
+        </div>
+      </section>
+
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:vrushabhsaa123@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
